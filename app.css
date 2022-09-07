@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    border-style: none;
+    background-size: cover;
+    margin-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8em;
+    word-break: normal;
+    line-height: 1em;
+    color: hsl(212, 21%, 14%);
+}
+
+.card-body {
+    padding: 1.5em;
+}
+
+span {
+    font-family: 'Fraunces', serif;
+    margin-left: 1em;
+    text-decoration: line-through;
+    font-size: .8em;
+
+}
+
+.intro {
+    letter-spacing: .2em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    margin: 1.5em auto;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    display: inline;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.5em;
+
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: .3rem 3.5rem;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
+
+.icon {
+    max-width: 1em;
+}
+
+button:hover {
+    background-color: hsl(158, 34%, 18%);
+}
+
+#product2 {
+    display: none;
+}
+
+@media(max-width:450px) {
+    #product1 {
+        display: none;
+        background-image: url(./images/image-product-mobile.jpg);
+    }
+
+    #product2 {
+        display: inline;
+    }
+
+    body {
+        text-align: start;
+        font-size: larger;
+        margin: .5em;
+    }
+
+    button {
+        padding: .3rem 6.5rem;
+        ;
+    }
+
+    .intro {
+        margin-top: 1em;
+    }
+}
